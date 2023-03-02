@@ -1,0 +1,100 @@
+.hero{
+    padding-top: 118px;
+    padding-bottom: 118px;
+    @media screen and (min-width: 1200px){
+    padding-top: 200px;
+    padding-bottom: 200px;
+    }
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1600px;
+  
+    background-color: var(--main-bg-color);
+    @media screen and (min-width: 480px){
+    background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), 
+    url('/src/images/hero/massage.jpg');
+    }
+//     @media (min-device-pixel-ratio: 2),
+//           (min-resolution: 192dpi),
+//           (min-resolution: 2dppx) {
+//   background-image: 
+//   linear-gradient(
+//   rgba(47, 48, 58, 0.4),
+//   rgba(47, 48, 58, 0.4)), 
+//   url('/src/images/header-main/massage.jpg');
+//       }
+      @media screen and (min-width: 768px) {
+    background-image: 
+    linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), 
+    url('/src/images/hero/massage.jpg');
+//           @media (min-device-pixel-ratio: 2),
+//               (min-resolution: 192dpi),
+//               (min-resolution: 2dppx) {
+//   background-image: 
+//   linear-gradient(
+//   rgba(47, 48, 58, 0.4),
+//   rgba(47, 48, 58, 0.4)), 
+//   url('/src/images/header-main/massage.jpg');
+//   }
+//       }
+      @media screen and (min-width: 1200px)  {
+              padding-top: 200px;
+              padding-bottom: 200px;
+  background-image: 
+  linear-gradient(
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)), 
+  url('/src/images/hero/massage.jpg');
+//           @media (min-device-pixel-ratio: 2),
+//               (min-resolution: 192dpi),
+//               (min-resolution: 2dppx) {
+//   background-image: 
+//   linear-gradient(
+//   rgba(47, 48, 58, 0.4),
+//   rgba(47, 48, 58, 0.4)), 
+//   url('/src/images/header-main/massage.jpg');
+//           }
+//       }
+//   }
+  
+  .hero-title__title{
+  font-size: 26px;
+  line-height: 1.61;  
+  font-weight: 900;
+  @media screen and (min-width: 1200px){
+  font-size: 44px;
+  line-height: 1.36;
+  }
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  @media screen and (min-width: 480px){
+      margin-bottom: 30px;
+  }
+  margin-bottom: 45px;
+  color: #302203;
+  }
+  
+  .btn__hero-btn{
+  // background-color: #503802;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  padding: 10px 32px 10px 32px;
+  border: solid 2px;
+  border-radius: 40;
+  color: #302203;
+  }
