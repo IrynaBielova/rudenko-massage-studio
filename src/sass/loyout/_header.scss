@@ -1,6 +1,6 @@
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
-    url('/src/images/header/header1x-opt.jpg');
+    url('/src/images/header/fon.jpg');
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -96,11 +96,12 @@ margin-left: auto;
 }
 
 .menu__header-link.current{
-color:#e04a04;
+color:$text-main-color;
 }
 
 .menu__header-link{
-color: #e04a04;
+color: $text-main-color;
+text-shadow:2px 2px 4px #000000;
 transition: color 250ms;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 position: relative;
@@ -115,7 +116,7 @@ color: #ffffff;
 .menu__header-mail{
   display: flex;
   align-items: center;
-  color: #e04a04;
+  color: $text-main-color;
   transition: color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
@@ -147,7 +148,7 @@ color: #ffffff;
 display: flex;
 align-items: center;
 margin-left: 48px;
-color: #e04a04;
+color: $text-main-color;
 transition: color 250ms;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 outline: none;
@@ -190,7 +191,7 @@ color: #ffffff
     height: 40px;
 &:hover,
 &:focus{
-fill: #e04a04;
+fill: $text-main-color;
 }
 border:none;
 background-color: #ffffff;
@@ -200,7 +201,7 @@ background-color: #ffffff;
   fill:currentColor;
 &:hover,
 &:focus{
-fill: #e04a04;
+fill: $text-main-color;
 }
 }
 
@@ -239,7 +240,7 @@ font-weight: 500;
 font-size: 34px;
 line-height: 1.18;
 letter-spacing: 0.02em;
-color: #e04a04;
+color: $text-main-color;
 // margin-bottom: 22px;
 // margin-top: 314px;
 }
@@ -281,7 +282,7 @@ font-weight: 500;
 font-size: 18px;
 line-height: 1.22;
 letter-spacing: 0.02em;
-color: #e04a04;
+color: $text-main-color;
 }
 
 .mob-social-list{
@@ -305,7 +306,7 @@ background-color: $accent-lighter-color;
 fill:currentColor;
 &:hover,
 &:focus{
-fill: #e04a04;
+fill: $text-main-color;
 }
 }
 
@@ -320,7 +321,8 @@ fill: #e04a04;
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #e04a04;
+  color: $text-main-color;
+  text-shadow:2px 2px 4px #000000;
   &{
   outline: none;
   }
