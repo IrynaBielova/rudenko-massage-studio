@@ -5,23 +5,16 @@
 @import './utils/container';
 @import './utils/reset';
 
-@import '../../node_modules/modern-normalize/modern-normalize.css';
+// @import '../../node_modules/modern-normalize/modern-normalize.css';
 // @import '../../node_modules/nprogress/nprogress.css';
 
 // @import '../../node_modules/animate.css/animate.css';
 
 
 @import './loyout/header';
-// @import './loyout/footer';
+@import './loyout/footer';
 
-// @import './components/card';
-// @import './components/home';
-// @import './components/modal';
-// @import './components/modal_students';
-// @import './components/my_library';
-// @import './components/pagination';
-// @import './components/theme-switch';
-// @import './components/button';
-// @import './components/top-button';
-// @import './components/loader';
-// @import './components/_select';
+@import './components/hero';
+@import './components/about';
+@import './components/_services.html';
+@import './components/studio';
